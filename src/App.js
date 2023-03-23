@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { useContext } from 'react';
+import ProductsPage from './pages/ProductsPage';
+import OneProductPage from './pages/OneProductPage';
+import { useFetchProductsQuery } from './store';
+import ProductsContext from './context/productsContext';
+import Route from './components/Route';
 
+import Header from './components/Header';
+import Footer from './components/Footer';
+import PerfumesPage from './pages/PerfumesPage';
 function App() {
+  const { data, error, isLoading } = useFetchProductsQuery();
+  const { setProductsFn } = useContext(ProductsContext);
+
+  if (!isLoading || error) {
+    setProductsFn(data);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header></Header>
+      <Route path="/">
+        <ProductsPage isLoading={isLoading} error={error} />
+      </Route>
+      <Route path="/id">
+        <OneProductPage />
+      </Route>
+      <Route path="/perfumes">
+        <PerfumesPage />
+      </Route>
+      <Footer></Footer>
     </div>
   );
 }

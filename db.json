@@ -1,0 +1,93 @@
+{
+  "products": [
+    {
+      "name": "product 1",
+      "id": 1,
+      "type": "PERFUME",
+      "title": "MAD ABOUT YOU SPLASH",
+      "bestSeller": true,
+      "Discount": 10,
+      "price": 150,
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet tortor congue, rutrum sapien ut, consequat sapien. Morbi euismod, ipsum"
+    },
+    {
+      "name": "product 2",
+      "id": 2,
+      "type": "LIP GLOSS",
+      "title": "MAD ABOUT YOU SPLASH",
+
+      "bestSeller": true,
+      "Discount": 0,
+      "price": 300,
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet tortor congue, rutrum sapien ut, consequat sapien. Morbi euismod, ipsum"
+    },
+    {
+      "name": "product 3",
+      "id": 3,
+      "type": "BATH BOMB",
+      "title": "MAD ABOUT YOU SPLASH",
+
+      "bestSeller": false,
+      "Discount": 8,
+      "price": 150,
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet tortor congue, rutrum sapien ut, consequat sapien. Morbi euismod, ipsum"
+    },
+    {
+      "name": "product 4",
+      "id": 4,
+      "type": "ESSENTIAL OIL",
+      "title": "MAD ABOUT YOU SPLASH",
+
+      "bestSeller": false,
+      "Discount": 10,
+      "price": 150,
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet tortor congue, rutrum sapien ut, consequat sapien. Morbi euismod, ipsum"
+    },
+    {
+      "name": "product 5",
+      "id": 5,
+      "type": "MAKHMARYA",
+      "title": "MAD ABOUT YOU SPLASH",
+
+      "bestSeller": true,
+      "Discount": 20,
+      "price": 150,
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet tortor congue, rutrum sapien ut, consequat sapien. Morbi euismod, ipsum"
+    },
+    {
+      "name": "product 6",
+      "id": 6,
+      "type": "PERFUME",
+      "title": "MAD ABOUT YOU SPLASH",
+
+      "bestSeller": true,
+      "Discount": 10,
+      "price": 150,
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet tortor congue, rutrum sapien ut, consequat sapien. Morbi euismod, ipsum"
+    },
+    {
+      "name": "product 7",
+      "id": 7,
+      "type": "PERFUME",
+      "title": "MAD ABOUT YOU SPLASH",
+
+      "bestSeller": true,
+      "Discount": 10,
+      "price": 150,
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet tortor congue, rutrum sapien ut, consequat sapien. Morbi euismod, ipsum"
+    },
+
+    {
+      "name": "product 8",
+      "id": 8,
+      "type": "PERFUME",
+      "title": "MAD ABOUT YOU SPLASH",
+
+      "bestSeller": true,
+      "Discount": 10,
+      "price": 150,
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet tortor congue, rutrum sapien ut, consequat sapien. Morbi euismod, ipsum"
+    }
+  ],
+  "orders": []
+}

@@ -1,0 +1,14 @@
+1) create Context in ProductsContext.js file
+    const productsContext = createContext();
+    and create Provider in it
+
+2) in index.js file wrap App with the provider
+     <Provider>
+      <App />
+     </Provider>
+
+3) use context in any child of provider in app.js file
+    import { useContext } from 'react';
+    import productsCotext from './context/productsContext';
+    const value = useContext(productsCotext);
+
